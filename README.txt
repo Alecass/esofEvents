@@ -1,2 +1,2 @@
-esof Event Mobile App in IONIC
+esof Event Mobile App in IONI
 
