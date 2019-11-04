@@ -1,3 +1,3 @@
 esof Event Mobile App in IONIC
-23 ottobre
+23 ottobree
 
