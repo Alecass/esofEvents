@@ -14,7 +14,42 @@
 
 <body>
     <ion-app>
-        
+        <ion-tabs>
+            <ion-tab tab="calendar">
+                    <h1>Schedule</h1>
+            </ion-tab>
+            <ion-tab tab="speaker">
+                    <h1>Speakers</h1>
+            </ion-tab>
+            <ion-tab tab="map">
+                    <h1>Map</h1>
+            </ion-tab>
+            <ion-tab tab="info">
+                    <h1>Information</h1>
+            </ion-tab>
+
+            <ion-tab-bar slot="bottom">
+                <ion-tab-button tab="calendar">
+                    <ion-label>Schedule</ion-label>
+                    <ion-icon name="calendar"></ion-icon>
+                </ion-tab-button>
+
+                <ion-tab-button tab="speaker">
+                    <ion-label>Speakers</ion-label>
+                    <ion-icon name="people"></ion-icon>
+                </ion-tab-button>
+
+                <ion-tab-button tab="map">
+                    <ion-label>Map</ion-label>
+                    <ion-icon name="map"></ion-icon>
+                </ion-tab-button>
+
+                <ion-tab-button tab="info">
+                    <ion-label>Information</ion-label>
+                    <ion-icon name="information-circle"></ion-icon>
+                </ion-tab-button>
+            </ion-tab-bar>
+        </ion-tabs>
     </ion-app>
 
     <script src="app.js"></script>
