@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spesometro</title>
+    <title>Corsometro</title>
     <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
     <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
@@ -16,7 +16,7 @@
     <ion-app>
         <ion-header>
             <ion-toolbar color="primary">
-                <ion-title>Spesometro</ion-title>
+                <ion-title>Corsometro</ion-title>
             </ion-toolbar>
         </ion-header>
 
@@ -26,14 +26,14 @@
                     <ion-col size-md="6" offset-md="3">
                         <ion-card>
                             <ion-card-content>
-                                <ion-card-title>Aggiungi spesa</ion-card-title>
+                                <ion-card-title>Aggiungi corso</ion-card-title>
                                 <ion-item>
-                                    <ion-label position="floating">Descrivi spesa</ion-label>
-                                    <ion-input type="text" id="motivo-spesa"></ion-input>
+                                    <ion-label position="floating">Nome</ion-label>
+                                    <ion-input type="text" id="nome-corso"></ion-input>
                                 </ion-item>
                                 <ion-item>
-                                    <ion-label position="floating">Importo spesa</ion-label>
-                                    <ion-input type="number" id="importo-spesa"></ion-input>
+                                    <ion-label position="floating">Punteggio (0-5)</ion-label>
+                                    <ion-input type="number" id="punteggio-corso"></ion-input>
                                 </ion-item>
 
                                 <!-- bottoni -->
@@ -54,25 +54,23 @@
                     </ion-col>
                 </ion-row>
                 <ion-row>
-                    <ion-col size-md ="6" offset-md ="3">
-                        <ion-list id="list-spesa"></ion-list>
+                    <ion-col  size-md ="6" offset-md ="3">
+                            <ion-list id="list-corsi">
+                            </ion-list>
                     </ion-col>
                 </ion-row>
-
                 <ion-row>
-                    <ion-col size-md="6" offset-md="3">
-                        <p>Spese totali:
-                            <span id="spese-totali"></span>
-                        </p>
+                    <ion-col size-md="6" offset-md = "3">
+                            <b>Media punteggi:</b>
+                            <p id="media"></p>
                     </ion-col>
                 </ion-row>
             </ion-grid>
         </ion-content>
-
         <ion-alert-controller></ion-alert-controller>
     </ion-app>
 
-    <script src="spesometro.js"></script>
+    <script src="mieicorsi.js"></script>
 
 </body>
 
