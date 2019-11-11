@@ -7,7 +7,13 @@ module.exports = {
     output:{
         filename: 'app.js',
         path: path.resolve(__dirname, 'www')
-    }
+    },
+    mode:'development',
 
+    devServer:{
+        contentBase: path.join(__dirname, 'www'),
+        compress : false,
+        port: 6969
+    }
 
 }

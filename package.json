@@ -3,18 +3,20 @@
   "version": "1.0.0",
   "description": "esof Event Mobile App in IONIC 23 ottobree",
   "main": "index.js",
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "devDependencies": {
+    "serve": "^11.2.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
-    "serve": "^11.2.0"
+    "webpack-dev-server": "^3.9.0"
   },
   "scripts": {
+    
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack --mode development"
-  },
+    "develop": "webpack --watch",
+    "start:dev": "webpack-dev-server",
+    "build":"webpack --mode production"
+  }, 
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Alecass/esofEvents.git"

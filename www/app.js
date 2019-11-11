@@ -86,14 +86,25 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./src/calendar.js":
+/*!*************************!*\
+  !*** ./src/calendar.js ***!
+  \*************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("const test = 5 + 2\n\nmodule.exports = {\n    name : 'Calendar',\n    test :test\n}\n\n//# sourceURL=webpack:///./src/calendar.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("console.log('WEBPACK')\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("const Calendar = __webpack_require__(/*! ./calendar.js */ \"./src/calendar.js\")\n\nconsole.log('WebPack')\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
