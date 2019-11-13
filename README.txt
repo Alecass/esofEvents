@@ -1,3 +1,5 @@
-esof Event Mobile App in IONIC
-23 ottobree
+Dev mode:
 
+- npm install 
+
+- npm run start:dev
