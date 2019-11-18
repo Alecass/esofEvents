@@ -1,7 +1,10 @@
 # Logs
+.DS_Store
+package-lock.json
 logs
 *.log
 npm-debug.log*
+www/app.js
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*

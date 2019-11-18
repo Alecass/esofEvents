@@ -1,5 +1,7 @@
 {
   "name": "ESOF 2020",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "custom"
 }
