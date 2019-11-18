@@ -10,7 +10,7 @@ ion-item{
     --background:white;
 }
 
-ion-item > ion-label{
+.calendar ion-item > ion-label{
     border-left: 2px solid #3880ff;
     padding-left: 10px;
 }
@@ -20,8 +20,17 @@ ion-card{
     --color: red;
 }
 
-
 #mapView{
     width: 100vw;
     height: 79vh;
+}
+
+.about-info p{
+    text-align: left;
+    padding : 1rem;
+    line-height: 1.5;
+}
+
+.about-info ion-item > ion-label{
+    padding-left: 10px;
 }
