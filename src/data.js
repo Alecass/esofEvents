@@ -55,5 +55,54 @@ module.exports = {
       "desc": "bla bla bla caffè cornetto e amaro",
       "id": "77s@hs$"
     }
-  ]
+  ],
+  "map":{
+    "geojson":{
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "evento": "colazione"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              13.76535415649414,
+              45.64970338301469
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "evento": "inizio"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              13.766974210739136,
+              45.649530884571554
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+           "evento": "fine"  
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              13.765000104904175,
+              45.647340858151615
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "information":{
+    
+  }
 }
